@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Estructura basica de HTML5</title>
+   <link rel="icon" type="imagen/jpg" href="fotos/HTML.gif">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <script type="js/jquery.min.js"></script>
+  <script type="js/bootstrap.min.js"></script>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script> 
+<link rel="stylesheet"  href="estilo.css"> 
+<link rel="stylesheet" href="fonts.css">
+
+</head>
+<body>
+  <div class="social">
+    <ul>
+     <li><a href="https://www.facebook.com/UniversidadUNAD/" target="_blank" class="icon-facebook"></a></li>
+      <li><a href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="icon-twitter"></a></li>
+      <li><a href="https://informacion.unad.edu.co/correo" target="_blank" class="icon-google"></a></li>
+      <li><a href="https://www.instagram.com/universidadunad/?hl=es-la" target="_blank" class="icon-instagram"></a></li>
+      <li><a href="https://www.linkedin.com/school/universidadunad/" class="icon-linkedin"></a></li>
+    </ul>
+  </div>
+<body>
+   <style>
+   body { background-color:  #005883; } 
+   <h1>{ color:  #F47920; } </h1>
+ </style>
+ <style type="text/css">
+    ...here goes your CSS styles...
+</style> 
+  <nav class="navbar navbar-light" style="background-color: #F0B429;">
+          <div class="container-fluid">
+       <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse"data-target="#myNavbar">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+        </button>
+         <a class="navbar-brand"class="color:#F47920;" class="" href="#"><i class="fa fa-home"></i> Yunior Bovea - Estructura basica de HTML5</a>
+         <ul class="horizontal">
+<li><a class="active" href="pleaning.html">Inicio</a></li>
+<li><a class="" href="conceptos.html">Conceptos</a></li>
+<li><a class="" href="recursos.html">Recursos</a></li>
+<li><a class="" href="autoevaluacion.html">Autoevaluación</a></li>
+<li><a class="" href="autor.html">Autor</a></li>
+</ul>
+               </div>
+      </div> 
+     </nav>
+      
+         <div class="container-fluid">
+        <div class="center jumbotron"style="background-color: #B3B3B3;">
+    <center><h1>HTML5</h1>
+    <p>Pagina de Diseño de sitios web con fin educativo.</center></p>
+      <center>  <div><a href="https://www.returngis.net/wp-content/uploads/2013/11/HTML-5.png" target="_blank"><img src="fotos/html5llllll.png"width="1000" height="600"></a></div></br>
+      
+      
+    </div>
+   
+
+  
+</div>
+          </div><div class="row content">
+            <div class="col-sm-12 text-justify">
+<div class="Panel with panel-warning class"style="background-color: #F47920;">            <div class="panel-heading"><center><i class='fas fa-book-open'></i> HTML5</center></div>
+                <div class="panel-body"><center> <p><b> HTML5, lo basico</b></center></br>
+<b>HTML5</b> es la version 5 del lenguaje de marcado HTML. Un documento escrito en <b>HTML</b> tiene una estructura basica como la siguiente:</br>
+<b>- <!doctype html></b> Lo primero que nos encontramos es la declaracion del tipo de documento que se esta mostrando. El DOCTYPE variará según el tipo de documento realizado, en nuestro ejemplo hemos utilizado el doctype del HTML5 que es maravillosamente sencillo.</br>
+<b>- html</b> Tras declarar el tipo de documento, indicamos que iniciamos nuestro documento HTML. Esta etiqueta se cierra cuando finalizamos el documento. Vemos que lleva un atributo lang, esto sirve para indicar el idioma del documento (en nuestro caso español)</br>
+<b>- head</b> En un documento HTML tenemos una cabecera donde colocaremos los metadatos de la pagina, el codigo JavaScript y el CSS que utilizará el navegador para renderizar la pagina.</br>
+- meta charset Obligatorio en HTML5, informa el juego de caracteres del documento, deberia ser siempre utf-8. Como todo metadato debe ir dentro del head</br>
+<b>- title</b> Es un tipo de metadato especial que nos proporciona el titulo de la pagina. Por motivos de posicionamiento (SEO) se recomienda que el meta title sea parecido al H1 del documento y a la URL de la pagina.</br>
+<b>- body</b> En su interior tendremos el contenido de la pagina.</br></br>
+
+<center><b>Etiquetas y Atributos</b></center></br>
+  Las etiquetas son la estructura basica del HTML. Estas etiquetas o tags se componen y contienen otras propiedades, como son los atributos y el contenido.</br>
+HTML define un total de 91 etiquetas, de las cuales 10 se consideran obsoletas. Sin embargo, una etiqueta por si sola a veces no contiene la suficiente informacion para estar completamente definida. Para ello contamos con los atributos: pares nombre-valor separados por "=" y escritos en la etiqueta inicial de un elemento después del nombre del elemento. El valor puede estar encerrado entre "comillas dobles" o 'simples'. Existen, tambien, algunos atributos que afectan al elemento por su presencia en la etiqueta de inicio, como puede ser el atributo ismap para el elemento <FONT color="blue"><"img"></FONT>.</br>
+
+Esta sería la estructura general de una línea de código en lenguaje HTML:</br>
+<FONT color="yellow"><"tag attribute1="value1" attribute2="value2">content</"tag></FONT> O lo que es lo mismo, con un ejemplo:</br>
+<FONT color="red"><"a href="http://www.enlace.com" target="_blank"></FONT>Ejemplo de enlace <FONT color="green"><"/a"></FONT> </br>
+Donde:</br>
+- <FONT color="green"><"a"></FONT> es la etiqueta o tag inicial y <FONT color="green"><"/a"></FONT> la etiqueta de cierre.</br>
+- href y target son los atributos.</br>
+- <FONT color="green">http://www.enlace.com y _blank son las variables.</FONT></br>
+- Ejemplo de enlace es el contenido.</br>
+Aunque también existen elementos vacios que no necesitan tag de cierre, cuya estructura sería ésta: <FONT color="blue"><"tag attribute1="value1" attribute2="value2" /"">></FONT></br>
+Estos elementos vacíos no constan de contenido, como por ejemplo, los tags <FONT color="blue"><"br"></FONT> o     <FONT color="blue"><"img"></FONT>.</br></br>
+<center><b>TIPOS DE ATRIBUTOS</b></center></br>
+Aunque cada una de las etiquetas HTML define sus propios atributos, encontramos algunos comunes a muchas o casi todas las etiquetas, que se dividen en cuatro grupos según su funcionalidad:</br>
+<b>- Atributos basicos</br>
+- Atributos de internacionalizacion</br>
+- Atributos de eventos</br>
+- Atributos de foco</b>
+
+</p></div>
+               
+                </div>
+                </div></center>
+
+         
+                
+ <footer class="container-fluid text-center">
+  <p><FONT color="white">Yunior Bovea - 2020</p>
+ </footer>
+
+</body>
+</html>
