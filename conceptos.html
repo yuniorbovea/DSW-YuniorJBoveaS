@@ -1,122 +1,108 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="es">
 
 <head>
-  <title>Estructura basica de HTML5</title>
-   <link rel="icon" type="imagen/jpg" href="fotos/HTML.gif">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <script type="js/jquery.min.js"></script>
-  <script type="js/bootstrap.min.js"></script>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-<script src='https://kit.fontawesome.com/a076d05399.js'></script> 
-<link rel="stylesheet"  href="estilo.css"> 
-<link rel="stylesheet" href="fonts.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Curso Diseño Web - Actividad Fase 3</title>
+ <link rel="stylesheet"  href="estilo.css"> 
+<link rel="stylesheet" href="fonts.css">
 </head>
+
 <body>
-  <div class="social">
+    <div class="social">
     <ul>
-     <li><a href="https://www.facebook.com/UniversidadUNAD/" target="_blank" class="icon-facebook"></a></li>
+      <li><a href="https://www.facebook.com/UniversidadUNAD/" target="_blank" class="icon-facebook"></a></li>
       <li><a href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="icon-twitter"></a></li>
       <li><a href="https://informacion.unad.edu.co/correo" target="_blank" class="icon-google"></a></li>
       <li><a href="https://www.instagram.com/universidadunad/?hl=es-la" target="_blank" class="icon-instagram"></a></li>
       <li><a href="https://www.linkedin.com/school/universidadunad/" class="icon-linkedin"></a></li>
     </ul>
   </div>
-<body>
-   <style>
-   body { background-color:  ; } 
-   <h1>{ color:  #F47920; } </h1>
- </style>
- <style type="text/css">
-    ...here goes your CSS styles...
-</style> 
-  <nav class="navbar navbar-light" style="background-color: #F0B429;">
-          <div class="container-fluid">
-       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse"data-target="#myNavbar">
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-        </button>
-         <a class="navbar-brand"class="color:#F47920;" class="" href="#"><i class="fa fa-home"></i> Yunior Bovea - Estructura basica de HTML5</a>
-         <ul class="horizontal">
-<li><a class="active" href="pleaning.html">Inicio</a></li>
-<li><a class="" href="conceptos.html">Conceptos</a></li>
-<li><a class="" href="recursos.html">Recursos</a></li>
-<li><a class="" href="autoevaluacion.html">Autoevaluación</a></li>
-<li><a class="" href="autor.html">Autor</a></li>
-</ul>
-               </div>
-      </div> 
-     </nav>
-      
-         <div class="container-fluid">
-        <div class="center jumbotron"style="background-color: #B3B3B3;">
-    <center><h1>HTML5-CONCEPTOS</h1>
-    <p>Pagina deL curso Diseño de sitios web con fin educativo.</p>
-    <p>presentarán contenidos debidamente redactados y citados con norma APA de la temática que han escogido para la construcción del sitio web. </p></center>
-      <center>  <div><a href="https://www.returngis.net/wp-content/uploads/2013/11/HTML-5.png" target="_blank"><img src="fotos/html5llllll.png"width="1000" height="600"></a></div></br>
-      
-      
-    </div>
-   
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo" src="fotos/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-  
-</div>
-          </div><div class="row content">
-            <div class="col-sm-12 text-justify">
-<div class="Panel with panel-warning class"style="background-color: #F47920;">            <div class="panel-heading"><center><i class='fas fa-book-open'></i> HTML5</center></div>
-                <div class="panel-body"><center> <p><b> HTML5, lo basico</b></center></br>
-<b>HTML5</b> es la version 5 del lenguaje de marcado HTML. Un documento escrito en <b>HTML</b> tiene una estructura basica como la siguiente:</br>
-<b>- <!doctype html></b> Lo primero que nos encontramos es la declaracion del tipo de documento que se esta mostrando. El DOCTYPE variará según el tipo de documento realizado, en nuestro ejemplo hemos utilizado el doctype del HTML5 que es maravillosamente sencillo.</br>
-<b>- html</b> Tras declarar el tipo de documento, indicamos que iniciamos nuestro documento HTML. Esta etiqueta se cierra cuando finalizamos el documento. Vemos que lleva un atributo lang, esto sirve para indicar el idioma del documento (en nuestro caso español)</br>
-<b>- head</b> En un documento HTML tenemos una cabecera donde colocaremos los metadatos de la pagina, el codigo JavaScript y el CSS que utilizará el navegador para renderizar la pagina.</br>
-- meta charset Obligatorio en HTML5, informa el juego de caracteres del documento, deberia ser siempre utf-8. Como todo metadato debe ir dentro del head</br>
-<b>- title</b> Es un tipo de metadato especial que nos proporciona el titulo de la pagina. Por motivos de posicionamiento (SEO) se recomienda que el meta title sea parecido al H1 del documento y a la URL de la pagina.</br>
-<b>- body</b> En su interior tendremos el contenido de la pagina.</br></br>
+           <nav>
+        <ul id="menu">
+          <li><a href="inicio.html">Inicio</a></li>
+          <li><a href="">Conceptos</a>
+            <ul>
+              <li class="nav-item active"><a href="Conceptos.html">HTML5</a></li>
+              <li><a href="atributos.html">Atributos</a></li>
+              <li><a href="etiquetas.html">Etiquetas</a></li>
+              <li><a href="elementos.html">Elementos</a></li>
+            </ul>  
+          </li>
+          <li><a href="recursos.html">Recursos</a></li>
+          <li><a href="Autoevaluacion.html">Autoevaluación</a></li>
+             <li><a href="autor.html">Autor</a></li>
+        </ul>
+      </nav>
+            </div>
+        </div>
+    </nav><br>
 
-<center><b>Etiquetas y Atributos</b></center></br>
-  Las etiquetas son la estructura basica del HTML. Estas etiquetas o tags se componen y contienen otras propiedades, como son los atributos y el contenido.</br>
-HTML define un total de 91 etiquetas, de las cuales 10 se consideran obsoletas. Sin embargo, una etiqueta por si sola a veces no contiene la suficiente informacion para estar completamente definida. Para ello contamos con los atributos: pares nombre-valor separados por "=" y escritos en la etiqueta inicial de un elemento después del nombre del elemento. El valor puede estar encerrado entre "comillas dobles" o 'simples'. Existen, tambien, algunos atributos que afectan al elemento por su presencia en la etiqueta de inicio, como puede ser el atributo ismap para el elemento <FONT color="blue"><"img"></FONT>.</br>
-
-Esta sería la estructura general de una línea de código en lenguaje HTML:</br>
-<FONT color="yellow"><"tag attribute1="value1" attribute2="value2">content</"tag></FONT> O lo que es lo mismo, con un ejemplo:</br>
-<FONT color="red"><"a href="http://www.enlace.com" target="_blank"></FONT>Ejemplo de enlace <FONT color="green"><"/a"></FONT> </br>
-Donde:</br>
-- <FONT color="green"><"a"></FONT> es la etiqueta o tag inicial y <FONT color="green"><"/a"></FONT> la etiqueta de cierre.</br>
-- href y target son los atributos.</br>
-- <FONT color="green">http://www.enlace.com y _blank son las variables.</FONT></br>
-- Ejemplo de enlace es el contenido.</br>
-Aunque también existen elementos vacios que no necesitan tag de cierre, cuya estructura sería ésta: <FONT color="blue"><"tag attribute1="value1" attribute2="value2" /"">></FONT></br>
-Estos elementos vacíos no constan de contenido, como por ejemplo, los tags <FONT color="blue"><"br"></FONT> o     <FONT color="blue"><"img"></FONT>.</br></br>
-<center><b>TIPOS DE ATRIBUTOS</b></center></br>
-Aunque cada una de las etiquetas HTML define sus propios atributos, encontramos algunos comunes a muchas o casi todas las etiquetas, que se dividen en cuatro grupos según su funcionalidad:</br>
-<b>- Atributos basicos</br>
-- Atributos de internacionalizacion</br>
-- Atributos de eventos</br>
-- Atributos de foco</b></b></b></b>
-
-<center><b>REFERENCIAS BIBLIOGRAFICAS</b></center></br>
-<ul>
-
-<li>Ronaldo caldas. Vigo. HTML5 y su estructura básica – PHP paso a paso. Recuperado de <a href="https://rolandocaldas.com/php/html5-estructura-basica">https://rolandocaldas.com/php/html5-estructura-basica</li></a> </li>
-<li>Vinkula. Estructura del código HTML5 – Anatomía de una página web. Recuperado de  <a href="https://vinkula.com/estructura-del-codigo-html5-anatomia-de-una-pagina-web/">https://vinkula.com/estructura-del-codigo-html5-anatomia-de-una-pagina-web/</li></a> </li>
-<li>Arsys. Estructura de HTML5 y para qué se utiliza la semántica del código. Recuperado de 
- <a href="https://www.arsys.es/blog/soluciones/hosting/estructura-de-html5-y-para-que-se-utiliza-la-semantica-del-codigo/">https://www.arsys.es/blog/soluciones/hosting/estructura-de-html5-y-para-que-se-utiliza-la-semantica-del-codigo/</li></a> </li>
-<li>MDN Web Docs mozilla. Lista de Elementos HTML5. Recuperado de <a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos">https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos</li></a> </li>
-
-</ul>
-</p></div>
-               
-                </div>
-                </div></center>
-
-         
+ 
+               <center> <img src="fotos/ht.png" width="1000" height="500"  alt="..."></center>
                 
- <footer class="container-fluid text-center">
-  <p><FONT color="white">Yunior Bovea - 2020</p>
- </footer>
+    
 
+    <main>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm 6 text-align">
+                        <CENTER><h2>¿Qué significa HTML5?</h2></CENTER><br>
+                        <p>Cuando hablamos de HTML5 lo primero que tenemos que saber es que es la última versión de la tecnología HTML, cuyas siglas corresponden a “HyperText Markup Language”, que tiene el siguiente significado:
+
+<p>HyperText, cuyo significado es hipertexto, que no es más que un texto que enlaza con otros contenidos, que pueden ser otro texto u otro archivo. Esto es la base del funcionamiento de la web tal y como la conocemos, que no es más que páginas y recursos interconectados.</p>
+<p>Markup, que significa marca o etiqueta, ya que todas las páginas web están construidas en base a etiquetas, desde las primeras versiones hasta las últimas etiquetas de HTML5. Un ejemplo de una etiqueta HTML es la que identifica a un párrafo, que se compone de la etiqueta, el contenido de la etiqueta y el cierre del párrafo: <p>HOLA</p></p>
+<p>Languaje, cuyo significado es lenguaje, porque HTML es un lenguaje, es decir, tiene sus normas, tiene su estructura y una serie de convenciones que nos sirven para definir tanto la estructura como el contenido de una web.</p>
+Algo importante a tener en cuenta y con lo que no hay que confundirse, es que porque HTML sea un lenguaje no quiere decir que sea un lenguaje programación. HTML no lo es, ya que no tiene estructuras de lenguaje de programación, como los bucles, las condiciones, las funciones, etcétera.
+                        </p>
+                    
+                        
+                        
+                    </div>
+                     <div class="col-12 col-sm 6 text-align">
+                          <CENTER><h2>Definición de HTML5</h2></CENTER><br>
+                          <p>Podemos definir HTML5 como un estándar que sirve para definir la estructura y el contenido de una página Web.
+
+<p>Según la definición que aparece en Wikipedia:</p>
+<p>"HTML5 es un estándar que sirve como referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado HTML) para la definición de contenido de una página web, como texto, imágenes, vídeos, juegos, entre otros…"</p>
+ <CENTER><h2>Funcionamiento HTML5</h2></CENTER><br>
+<p>Vamos a ver cómo es proceso cuando se solicita una página HTML a través del navegador. El proceso es el siguiente:</p>
+<p>Desde el navegador se realiza una petición a un servidor, lo que se hace a través de una dirección del tipo http://..../index.html. Después el servidor recupera de su disco duro esa página, la devuelve al navegador y la página se muestra.</p>
+
+Si quieres profundizar mucho más en CSS3, puedes hacer el Curso de HTML5 y CSS3. En este curso aprenderás  a crear paso a paso páginas Webs profesionales.
+
+</div>
+                    
+                        <aside>
+                            <a class="twitter-timeline" data-width="300" data-height="700" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </aside>
+                    </div>
+                </div>
+        </section>
+    </main><br>
+   
 </body>
+
 </html>

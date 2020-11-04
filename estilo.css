@@ -53,3 +53,38 @@ body{ margin: 0;
 font-family: franklin gothic book; 
 
  }
+
+ *{
+  margin: 0;
+  padding: 0;
+}
+header{
+  font-family: Helvetica;
+  width: 480px;
+  margin: 0 auto;
+}
+ul{
+  list-style: none;
+}
+#menu li>a{
+  background-color:  #005883;
+  color: white;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: 100px;
+}
+#menu li>a:hover{
+  color: black;
+  background-color:   #F0B429;
+}
+#menu>li{
+  float: left;
+  text-align:center
+}
+#menu>li>ul{
+  display: none;
+}
+#menu>li:hover>ul {
+  display:block;
+}

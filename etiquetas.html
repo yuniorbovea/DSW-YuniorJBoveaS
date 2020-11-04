@@ -14,8 +14,25 @@
     <link rel="stylesheet" href="css/estilos.css">
 
     <title>Curso Diseño Web - Actividad Fase 3</title>
- <link rel="stylesheet"  href="estilo.css"> 
+    <link rel="stylesheet"  href="estilo.css"> 
 <link rel="stylesheet" href="fonts.css">
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
 </head>
 
 <body>
@@ -29,7 +46,7 @@
     </ul>
   </div>
     <!-- Menu -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
         <div class="container">
             <a class="navbar-brand" href="index.html">
                 <img class="logo" src="fotos/logo.png" alt="">
@@ -42,7 +59,7 @@
             <nav>
         <ul id="menu">
           <li><a href="inicio.html">Inicio</a></li>
-          <li><a href="">Conceptos</a>
+          <li class="nav-item active"><a href="">Conceptos</a>
             <ul>
               <li><a href="Conceptos.html">HTML5</a></li>
               <li><a href="atributos.html">Atributos</a></li>
@@ -52,50 +69,112 @@
           </li>
           <li><a href="recursos.html">Recursos</a></li>
           <li><a href="Autoevaluacion.html">Autoevaluación</a></li>
-             <li class="nav-item active"><a href="autor.html">Autor</a></li>
+             <li><a href="autor.html">Autor</a></li>
         </ul>
       </nav>
+
             </div>
         </div>
     </nav><br>
-
-    <!-- Banner 
-    <section class="banner">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/home/autor.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                </div>
-            </div>
-    </section>
-    </div>--><br>
+    <!-- Banner -->
+    
+    </div><br>
 
     <main>
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-sm 4 ">
-                        <h2>Autor</h2>
-                        <img class="img-fluid" width="100" height="200" src="fotos/yunior.jpg" alt=""><p></p>
-                       <p>Nombres: Yunior Jose Bovea Segura</p>
-                        <p>Código: 1127617219 </p>
-                        <p>Programa: Ingenieria de sistemas </p>
-                        <p>Email: junior1001bovea@gmail.com | yjboveas@unadvirtual.edu.co</p>
-                        <p>Skype: yuniorbovea </p>
+                    
+                    <div class="col-14 col-sm 6 text-center">
+                     <h2>Listado de etiquetas en HTML5 (algunas)</h2><br>
+                        
+<table>
+  <tr>
+    <th>Etiqueta</th>
+    <th>Función</th>
+      </tr>
+  <tr>
+    <td><"!–…–></td>
+    <td>Define un comentario</td>
+      </tr>
+  <tr>
+    <td><"a"></td>
+    <td> Define un hipervínculo</td>
+      </tr>
+  <tr>
+    <td><"abbr"></td>
+    <td> Define una abreviación</td>
+      </tr>
+  <tr>
+    <td><"address"></td>
+    <td>Define la información de contacto del autor / propietario del documento</td>
+    
+  </tr>
+  <tr>
+    <td><"!DOCTYPE"></td>
+    <td>Define el tipo de docuemento</td>
+  </tr>
+  <tr>
+    <td><area></td>  
+ 
+ 
+ 
+    <td>Define un área dentro de un mapa de imagen</td>
+  </tr>
+  <tr>
+    <th><"article></th>
+    <th>Define un artículo</th>
+  </tr>
+  <tr>
+    <td><"aside></td>
+    <td>Define el contenido lateral del contenedor de una página</td>
+  </tr>
+  <tr>
+    <td><"audio></td>
+    <td>Define contenido de sonido</td>
+  </tr>
+  <tr>
+    <td><-button>  </td>
+    <td>Define un botón clickeable</td>
+  </tr>
+
+  <tr>
+    <td><-canvas></td>
+    <td> Se usa para dibujar gráficos en pantalla</td>
+  </tr>
+  <tr>
+    <td><-caption></td>
+    <td> Define el título de una tabla</td>
+  </tr>
+  <tr>
+    <td><-cite></td>
+    <td>Define el título de un trabajo</td>
+  </tr>
+  <tr>
+    <th><-code></th>
+    <th> Define un trozo de código de programación</th>
+  </tr>
+  <tr>
+    <td> <-col></td>
+    <td> Especifica las propiedades de la columna para cada columna del elemento</td>
+  </tr>
+  <tr>
+    <td><-colgroup></td>
+    <td>Especifica un grupo de una o más columnas de una tabla</td>
+  </tr>
+ 
+</table>
+
+
                     </div>
-                    <div class="col-12 col-sm 6">
+                    <div class="col-12 col-sm 6 text-center">
                         <aside>
-                            <a class="twitter-timeline" data-width="550" data-height="700"
-                                href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by
-                                UniversidadUNAD</a>
-                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            <a class="twitter-timeline" data-width="550" data-height="1000" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                         </aside>
                     </div>
                 </div>
-            </div>
         </section>
     </main><br>
-    
+   
 </body>
-
 </html>

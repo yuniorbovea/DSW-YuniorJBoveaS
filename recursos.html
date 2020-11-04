@@ -1,20 +1,24 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="es">
 
 <head>
-  <title>Estructura basica de HTML5</title>
-   <link rel="icon" type="imagen/jpg" href="fotos/HTML.gif">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <script type="js/jquery.min.js"></script>
-  <script type="js/bootstrap.min.js"></script>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-<script src='https://kit.fontawesome.com/a076d05399.js'></script> 
-<link rel="stylesheet"  href="estilo.css"> 
-<link rel="stylesheet" href="fonts.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Curso Diseño Web - Actividad Fase 3</title> <link rel="stylesheet"  href="estilo.css"> 
+<link rel="stylesheet" href="fonts.css">
 </head>
+
 <body>
-  <div class="social">
+    <div class="social">
     <ul>
       <li><a href="https://www.facebook.com/UniversidadUNAD/" target="_blank" class="icon-facebook"></a></li>
       <li><a href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="icon-twitter"></a></li>
@@ -23,74 +27,96 @@
       <li><a href="https://www.linkedin.com/school/universidadunad/" class="icon-linkedin"></a></li>
     </ul>
   </div>
-<body>
-   <style>
-   body { background-color:   } 
-   <h1>{ color:  #F47920; } </h1>
- </style>
- <style type="text/css">
-    ...here goes your CSS styles...
-</style> 
-  <nav class="navbar navbar-light" style="background-color: #F0B429;">
-          <div class="container-fluid">
-       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse"data-target="#myNavbar">
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-        </button>
-         <a class="navbar-brand"class="color:#F47920;" class="active" href="#"><i class="fa fa-home"></i> Yunior Bovea - Estructura basica de HTML5</a>
-         <ul class="horizontal">
-<li><a class="active" href="pleaning.html">Inicio</a></li>
-<li><a class="" href="conceptos.html">Conceptos</a></li>
-<li><a class="" href="recursos.html">Recursos</a></li>
-<li><a class="" href="autoevaluacion.html">Autoevaluación</a></li>
-<li><a class="" href="autor.html">Autor</a></li>
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo" src="fotos/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            
+ <nav>
+        <ul id="menu">
+          <li><a href="inicio.html">Inicio</a></li>
+          <li><a href="">Conceptos</a>
+            <ul>
+              <li><a href="Conceptos.html">HTML5</a></li>
+              <li><a href="atributos.html">Atributos</a></li>
+              <li><a href="etiquetas.html">Etiquetas</a></li>
+              <li><a href="elementos.html">Elementos</a></li>
+            </ul>  
+          </li>
+          <li class="nav-item active"><a href="recursos.html">Recursos</a></li>
+          <li><a href="Autoevaluacion.html">Autoevaluación</a></li>
+             <li><a href="autor.html">Autor</a></li>
+        </ul>
+      </nav>
+    
+
+            </div>
+        </div>
+    </nav><br>
+
+    <!-- Banner -->
+    <section class="banner">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="fotos/recursos.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+    </section>
+    </div><br>
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm 6 text-center">
+                        <h2>Recursos Educativos</h2><br>
+                        
+                        <p style="text-align: justify">Celaya Luna, A. (2014). Creación de páginas web: HTML 5. Recuperado de
+                            <a href="https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/56045">https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/56045</a>
+                        </p>
+                        <p style="text-align: justify">Monteiro, F. (2013). Instant HTML5 Responsive Table Design How-to: Present Your Data Everywhere on Any Device Using Responsive Design Techniques. Birmingham, England: Packt Publishing. Recuperado de 
+                        <a href="http://bibliotecavirtual.unad.edu.co:2051/login.aspx?direct=true&db=nlebk&AN=575945&lang=es&site=eds-live">
+                            http://bibliotecavirtual.unad.edu.co:2051/login.aspx?direct=true&db=nlebk&AN=575945&lang=es&site=eds-live</a>
+                        </p>
+                        <p style="text-align: justify">Guarini, G. D. (2013). HTML5 and CSS3 Transition, Transformation and Animation. Birmingham: Packt Publishing. Recuperado de
+                        <a href="http://bibliotecavirtual.unad.edu.co:2051/login.aspx?direct=true&db=nlebk&AN=672978&lang=es&site=eds-live">
+                            http://bibliotecavirtual.unad.edu.co:2051/login.aspx?direct=true&db=nlebk&AN=672978&lang=es&site=eds-live</a>
+                        </p><ul>
+
+<li style="text-align: justify">Ronaldo caldas. Vigo. HTML5 y su estructura básica – PHP paso a paso. Recuperado de <a href="https://rolandocaldas.com/php/html5-estructura-basica">https://rolandocaldas.com/php/html5-estructura-basica</li></a> </li>
+<li style="text-align: justify">Vinkula. Estructura del código HTML5 – Anatomía de una página web. Recuperado de  <a href="https://vinkula.com/estructura-del-codigo-html5-anatomia-de-una-pagina-web/">https://vinkula.com/estructura-del-codigo-html5-anatomia-de-una-pagina-web/</li></a> </li>
+<li style="text-align: justify">Arsys. Estructura de HTML5 y para qué se utiliza la semántica del código. Recuperado de 
+ <a href="https://www.arsys.es/blog/soluciones/hosting/estructura-de-html5-y-para-que-se-utiliza-la-semantica-del-codigo/">https://www.arsys.es/blog/soluciones/hosting/estructura-de-html5-y-para-que-se-utiliza-la-semantica-del-codigo/</li></a> </li>
+<li style="text-align: justify">MDN Web Docs mozilla. Lista de Elementos HTML5. Recuperado de <a href="https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos">https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos</li></a> </li>
+
 </ul>
-               </div>
-      </div> 
-     </nav>
-      
-         <div class="container-fluid">
-        <div class="center jumbotron">
-    <center><h1>HTML5-RECURSOS</h1>
-    <p>Se encontrara los recursos utilizados para la elaboración de la actividad</center></p>
-      
-    </div>
-   
-
-  
-</div>
-          </div>
-
-         
-                 <div class="col-sm-12 sidenav">
-                  <div class="Panel with panel-warning class"style="background-color: #F47920;">
-                     <div class="panel-heading"><center><i class='fas fa-tools'></i> Recursos  </center>
-      </div>
-                       <div class="panel-body"> <p>- Mediante XHTML se obtuvo parte de la informacion del tema abordado  <FONT color="blue">"XHTML. CAPÍTULO 3 ETIQUETAS, ATRIBUTOS Y ELEMENTOS. recuperado de https://www.arkaitzgarro.com/xhtml/capitulo-3.html#:~:text=Cap%C3%ADtulo%203%20Etiquetas%2C%20atributos%20y,la%20estructura%20b%C3%A1sica%20del%20HTML.&text=Para%20ello%20contamos%20con%20los,dobles%22%20</br>o%20'simples'</FONT> y de "Rolandocaldas.com" se obtuvo otra parte de la informacion <FONT color="blue">"rolando caldas. HTML5 y su estructura básica – PHP paso a paso. recuperado de https://rolandocaldas.com/php/html5-estructura-basica"</FONT>.</br></br>
-                      - Se utilizo el software <FONT color="blue">"Sublime Text"</FONT> para la elaboracion de esta pagina.</br></br>
-                      - W3schools nos permitio codificar los iconos que se muestran en esta pagina.  <FONT color="blue">"https://www.w3schools.com/icons/fontawesome5_icons_education.asp"</FONT>
-                     <center> <iframe width="500" height="315" src="https://www.youtube.com/embed/eXbN9fr4UfY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- <iframe width="500" height="315" src="https://www.youtube.com/embed/kN1XP-Bef7w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- <iframe width="500" height="315" src="https://www.youtube.com/embed/4N3pcvL9O_k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- <iframe width="500" height="315" src="https://www.youtube.com/embed/7mpjfkvdUBc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<div><a href="https://scontent.fbaq2-2.fna.fbcdn.net/v/t1.0-0/p526x296/119944283_3284752188246571_5776841613837976961_n.jpg?_nc_cat=108&_nc_sid=8bfeb9&_nc_eui2=AeEdAekQgRklH8CcG8xzU-8RdZSuVlQY7Uh1lK5WVBjtSP7JrEojk3l6MURsYjhbBQGe7bpT5DkiQam2kjfEsqal&_nc_ohc=-85Y0ab1HTgAX9i79An&_nc_ht=scontent.fbaq2-2.fna&tp=6&oh=5f97de5fe684704b6e226f9466f7b99d&oe=5F8FC2B4" target="_blank"><img src="fotos/maq.jpg" width="500" height="950"></a></div>Antiguo Diseño de la pagina-Maquetación.
-
-
- </br>
-</p></div>
-
+                        <h2>Videos</h2>
+                        
+                        <iframe width="600" height="315" src="https://www.youtube.com/embed/v9DEI-bY32k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                       
+                        <iframe width="600" height="315" src="https://www.youtube.com/embed/kKVEXf--T-4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="600" height="315" src="https://www.youtube.com/embed/eXbN9fr4UfY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <iframe width="600" height="315" src="https://www.youtube.com/embed/kN1XP-Bef7w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <iframe width="600" height="315" src="https://www.youtube.com/embed/4N3pcvL9O_k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <iframe width="600" height="315" src="https://www.youtube.com/embed/7mpjfkvdUBc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                           </div> 
-                 </div> </div>    
-              </div>
-              </div>
-           
-
- <footer class="container-fluid text-center">
-  <p><FONT color="white">Yunior Bovea - 2020</p>
- </footer>
-
+                    <div class="col-12 col-sm 6">
+                        <aside>
+                            <a class="twitter-timeline" data-width="550" data-height="1000" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </aside>
+                    </div>
+                </div>
+        </section>
+    </main><br>
+    
 </body>
+
 </html>
